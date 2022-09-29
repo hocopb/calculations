@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/styles_veter.css">
+	<title>Document</title>
+</head>
+<body>
+	<div id="main">
+		<div id="input_data">
+            <select name="" id="">
+                <option value="">I (400 Па)</option>
+                <option value="">II (500 Па)</option>
+                <option value="">III (670 Па)</option>
+                <option value="">IV (800 Па)</option>
+                <option value="">V (1000 Па)</option>
+                <option value="">VI (1250 Па)</option>
+                <option value="">VII (1500 Па)</option>
+            </select>
+            <select name="" id="">
+                <option value="">A</option>
+                <option value="">B</option>
+                <option value="">C</option>
+            </select>
+            <div id="sections">
+                <button id="add_section">Добавить секцию</button>
+                <div id="all_sections">
+                    <div class="section">
+                        <input type="text" class="name_section" placeholder="Название секции">
+                        <br>
+                        <input type="text" class="section_hight" placeholder="Высота секции">
+                        <input type="text" class="section_width_bottom" placeholder="Ширина низа">
+                        <input type="text" class="section_width_top" placeholder="Ширина верха">
+                        <button class="add_element">Добавить элемент</button>
+                        <div class="elements">
+                            <input type="text" class="element_name" placeholder="Название элемента">
+                            <input type="text" class="element_section" placeholder="Сечение">
+                            <input type="text" class="element_width" placeholder="Ширина элемента">
+                            <input type="text" class="element_count" placeholder="Количество">
+                            <input type="text" class="element_length" placeholder="Длина">
+                            <button class="delete_element">Удалить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="result">Высота секции</div>
+	</div>
+	<script src="/js/scripts_veter.js"></script>
+</body>
+</html>
